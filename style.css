@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font: poppins;
+    background-color: rgb(243, 220, 248);
+}
+
+.main {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+.menu-space {
+    width: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 5px, 10px, 30px rgba(129, 127, 127, 0.02);
+    z-index: 1;
+}
+
+.logo img {
+    height: 55px;
+    width: 55px;
+    top: 0px;
+    left: 0px;
+    box-shadow: lavender;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu li a {
+    height: 25px;
+    line-height: 25px;
+    margin: 18px;
+    display: flex;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #9f2eeb;
+    border-radius: 20px;
+}
+
+.hey {
+    color: #9f2eeb;
+    font-weight: 500;
+    font-size: 1em;
+    border-bottom: 2px solid #d8aef3;
+}
+
+.image {
+    width: 450px;
+    height: 720px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+}
+
+.main-text {
+    width: 850px;
+}
+
+.main-text h1 {
+    font-size: 3.5em;
+    color: rgb(112, 109, 109);
+    margin: 0px 0px 10px 50px;
+    line-height: 60px;
+    display: flex;
+    text-align: center;
+}
+
+.main-text p {
+    color: rgb(112, 109, 109);
+    margin: 0px 0px 10px 50px;
+    display: flex;
+    text-align: center;
+}
+
+.resume-btn {
+    width: 190px;
+    height: 44px;
+    margin: 0px 0px 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #9f2eeb;
+    border-radius: 20px;
+    box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+}
+
+.resume-btn:hover {
+    background-color: #682e8b;
+    transition: all ease 0.2s;
+}
+
+.menu li a:hover {
+    background-color: rgb(218, 189, 238);
+    color: white;
+    box-shadow: 2px #9f2eeb;
+}
+
+.hey:hover {
+    background-color: rgb(218, 189, 238);
+    color: white;
+    box-shadow: 2px #9f2eeb;
+    border-radius: 20px;
+    ;
+}
